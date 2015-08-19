@@ -61,8 +61,7 @@ void mat_multv(int m, int n, double** A, double* v, double* w)
 //assert: let i:=0...n,  B[i] is a valid pointer to a double*
 void mat_multm(int m, int n,int q, double** A, double** B, double** C) 
 {
-    int i,j,k,l;
-    double t1,t2;
+    int i,j,k;
     
     for (i = 0; i < m; i++) {
         
