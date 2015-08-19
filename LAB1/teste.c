@@ -4,15 +4,13 @@
 double fcos (double x);
 
 
-// residuo
 
 
 const double step = M_PI/30.0;
 
-
 void parte2() {
     printf("\n\n ===== Task 2 ====\n");
-    printf("\t %.16g\n\n", 2.3-2-0.3);
+    printf("\t %.16g\n\n", 2.3 - 2.0 - 0.3);
 }
 
 int main(void) {

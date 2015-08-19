@@ -12,9 +12,6 @@ double ddf_x0 = -cosPI_2;
 double dddf_x0 = senPI_2;
 double ddddf_x0 = cosPI_2;
 
-
-
-
 double fcos (double x) {
 
     return f_x0 
